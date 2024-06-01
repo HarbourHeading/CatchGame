@@ -6,7 +6,7 @@ built with maven.
 
 ## Motivation
 
-The catch game has been reproduced many times before - often as a beginner project - but none of them try to modernize it.
+The catch game has been reproduced hundreds of times before, but very few try to modernize it.
 This project is meant to be a game of catch that utilizes state-of-the-art tools and ideas while keeping the gameplay largely the same.
 
 ![game](https://github.com/HarbourHeading/CatchGame/assets/69332989/3f50022d-11c5-4898-8cd2-0c74659820f8)
@@ -22,15 +22,6 @@ Skip to the last step if you downloaded the jar file directly from [releases](ht
 4. cd target
 5. java -jar catch-it.jar
 ```
-
-## To do
-
-- [ ] Create database for storing top scores.
-- [ ] Add logger, stderr piped to file.
-- [ ] Change game speed based on screen size.
-- [ ] Implement different sorting algorithm for score file.
-- [X] ~~Add "Press ESC to unpause" display to pause screen.~~
-- [X] ~~Fix player position not resetting on restart.~~
 
 ## Contributing
 
@@ -50,3 +41,7 @@ mvn install
 ### Submit a pull request
 
 If you want to contribute, please fork the repository and open a pull request.
+
+## Credits
+
+The background image is supplied by Hugo Bonacci, and his original work can be found [here](http://hugoware.net:4000/design/game-background) under a Creative Commons Attribution 3.0 Unported License.
